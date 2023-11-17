@@ -19,7 +19,11 @@
         container: 'map', // container id
         style: 'https://raw.githubusercontent.com/marchile/maplibre_ibrid/main/webmapp_bright.json', // style URL
         center: [0, 0], // starting position [lng, lat]
-        zoom: 1 // starting zoom
+        zoom: 1, // starting zoom
+        terrain: {
+            source: 'terrainSource',
+            exaggeration: 1
+        }
     });
 </script>
 </body>
