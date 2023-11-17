@@ -22,6 +22,10 @@
   "zoom": 1,
   "bearing": 0,
   "pitch": 0,
+  "terrain": {
+            "source": 'terrain_data',
+            "exaggeration": 1
+        },
   "sources": {
     "openstreetmap_vt": {
       "type": "vector",
