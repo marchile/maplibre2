@@ -85,6 +85,10 @@
             "tileSize": 256
         }
     },
+    "terrain": {
+        "source": "terrainSource",
+        "exaggeration": 1
+    },
     "sprite": "https://openmaptiles.github.io/osm-bright-gl-style/sprite",
     "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=h2AtggfKuemnoaJE5zmz",
     "layers": [
@@ -5871,9 +5875,5 @@
             }
         }
     ],
-    "terrain": {
-        "source": "terrainSource",
-        "exaggeration": 1
-    },
     "id": "bright"
 }
