@@ -40,10 +40,10 @@
         "maputnik:renderer": "mbgljs"
     },
     "center": [
-        0,
-        0
+        47,
+        11
     ],
-    "zoom": 1,
+    "zoom": 10,
     "bearing": 0,
     "pitch": 0,
     "sources": {
@@ -84,10 +84,6 @@
             "url": "https://demotiles.maplibre.org/terrain-tiles/tiles.json",
             "tileSize": 256
         }
-    },
-    "terrain": {
-        "source": "terrainSource",
-        "exaggeration": 1
     },
     "sprite": "https://openmaptiles.github.io/osm-bright-gl-style/sprite",
     "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=h2AtggfKuemnoaJE5zmz",
@@ -5875,5 +5871,9 @@
             }
         }
     ],
+    "terrain": {
+        "source": "terrainSource",
+        "exaggeration": 1
+    },
     "id": "bright"
 }
